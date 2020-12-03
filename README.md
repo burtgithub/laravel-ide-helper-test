@@ -1,6 +1,6 @@
-## 
+## My steps
 
-composer create-project laravel/laravel=7.* demoide --prefer-dist
+       composer create-project laravel/laravel=7.* demoide --prefer-dist
   579  history 
   580  cd demoide/
   581  composer require --dev barryvdh/laravel-ide-helper
