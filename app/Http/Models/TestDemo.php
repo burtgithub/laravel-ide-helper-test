@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class TestDemo extends Model
 {
 	protected $table = 'tbl_test';
-	protected $connection = 'test';
+	protected $connection = 'mysql';
 	protected $guarded = [];
 
 

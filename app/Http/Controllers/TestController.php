@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use App\Http\Models\TestDemo;
 
-class ShareController extends Controller
+class TestController extends Controller
 {
 	public function test(){
 
