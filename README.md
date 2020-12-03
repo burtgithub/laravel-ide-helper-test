@@ -24,9 +24,9 @@
        Add the following class to the providers array in config/app.php:
        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
        
-##Create two test files
+## Create two test files
 
-###1：laravel-ide-helper-test/app/Http/Models/TestDemo.php
+### 1：laravel-ide-helper-test/app/Http/Models/TestDemo.php
 
 
 
