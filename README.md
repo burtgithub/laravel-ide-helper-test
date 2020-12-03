@@ -1,3 +1,7 @@
+## My environment
+       php:with Zend OPcache v7.3.8
+       laravel:Laravel Framework 7.30.0
+
 ## My steps
 
        composer create-project laravel/laravel=7.* demoide --prefer-dist
