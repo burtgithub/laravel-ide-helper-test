@@ -27,6 +27,22 @@
 ## Create two test files
 
 ### 1：laravel-ide-helper-test/app/Http/Models/TestDemo.php
+       <?php
+
+       namespace App\Http\Models;
+
+       use Illuminate\Database\Eloquent\Model;
+
+       class TestDemo extends Model
+       {
+              protected $table = 'tbl_test';
+              protected $connection = 'test';
+              protected $guarded = [];
+
+
+
+       }
+
 
 
 
