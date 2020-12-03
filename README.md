@@ -8,3 +8,19 @@
        583  ./artisan ide-helper:generate
        584  php artisan cache:clear
        585  php artisan ide-helper:generate
+       
+       
+       
+       
+       add the package to the extra.laravel.dont-discover key in composer.json, e.g.
+       "extra": {
+         "laravel": {
+           "dont-discover": [
+             "barryvdh/laravel-ide-helper"
+           ]
+         }
+       }
+       
+       Add the following class to the providers array in config/app.php:
+       Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
