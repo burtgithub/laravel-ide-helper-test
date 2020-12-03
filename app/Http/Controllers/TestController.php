@@ -1,8 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
-
 use App\Http\Models\TestDemo;
 
 class ShareController extends Controller
@@ -14,8 +12,5 @@ class ShareController extends Controller
         $test->firstOrCreate();
 
     }
-
-
-
 
 }
